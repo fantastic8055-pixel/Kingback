@@ -52,14 +52,14 @@ async def start(_, msg):
         [
             InlineKeyboardButton(
                 text="˹ 𝐌ʏ 𝐌ᴀꜱᴛᴇʀ ˼ 👑",
-                url="https://t.me/vinnu_exe",
+                url="https://t.me/Nyx_Zam",
                 style=ButtonStyle.DANGER,
             ),
         ],
     ]
 
     await msg.reply_photo(
-        photo="https://i.supaimg.com/14ac9144-a5d0-49c4-9fc7-8c73f527216c/7bc9f0b7-9e84-470f-858f-b2f9f1ee88ba.png",
+        photo="https://iili.io/nkMQ2F2.jpg",
         caption=start_txt,
         reply_markup=InlineKeyboardMarkup(buttons),
     )
