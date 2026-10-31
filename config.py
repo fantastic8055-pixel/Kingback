@@ -10,12 +10,12 @@ load_dotenv()
 # Required credentials
 API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH")
-BOT_TOKEN = getenv("BOT_TOKEN""8904509910:AAH6akK1d2v2_eeu919uoJpCpu2-PPRtlOU")
+BOT_TOKEN = getenv("BOT_TOKEN" None )
 
 # Bot and owner info
-OWNER_USERNAME = getenv("OWNER_USERNAME", "vinnu_exe")
-BOT_USERNAME = getenv("BOT_USERNAME", "AzuraMusicBot")
-BOT_NAME = getenv("BOT_NAME", "˹ 𝐀ᴢᴜʀᴀ ✘ 𝐌ᴜsɪᴄ ˼")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "Nyx_Zam")
+BOT_USERNAME = getenv("BOT_USERNAME", "Sexiebbe_bot")
+BOT_NAME = getenv("BOT_NAME", "˹ .ִֶ᭡ִ.ִֶָටි ⋏ ꧊⁠⁠⁠⁠ꝛ‌ ⋏𓂃 ࣪˖ ִֶָ🦢 𝐌ᴜsɪᴄ ˼")
 ASSUSERNAME = getenv("ASSUSERNAME", "Fighter")
 
 
@@ -24,7 +24,7 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
 # Limits and IDs
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
-LOGGER_ID = int(getenv("LOGGER_ID", -1004292883487))
+LOGGER_ID = int(getenv("LOGGER_ID", -1003526601689))
 OWNER_ID = int(getenv("OWNER_ID", 7450836393))
 
 # Heroku
@@ -37,8 +37,8 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Support
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/zaxpk")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/zaxpk")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/urplaylist_wtme")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+pZNdOlVwo9c2Mzc1")
 
 # Assistant settings
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
@@ -91,20 +91,20 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", getenv("LOGGER_ID", "0")))
 SUPPORT_GROUP = getenv("SUPPORT_GROUP", SUPPORT_CHAT)
 
 # Image URLs
-SHASHANK_IMG = getenv("SHASHANK_IMG", "https://iili.io/nkMQ2F2.jpg").split(",") if "," in getenv("SHASHANK_IMG", "https://iili.io/nkMQ2F2.jpg") else [getenv("SHASHANK_IMG", "https://iili.io/nkMQ2F2.jpg")]
+SHASHANK_IMG = getenv("SHASHANK_IMG", "https://iili.io/nS6IydJ.jpg").split(",") if "," in getenv("SHASHANK_IMG", "https://iili.io/nS6IydJ.jpg") else [getenv("SHASHANK_IMG", "https://iili.io/nS6IydJ.jpg")]
 
-START_IMG_URL = getenv("START_IMG_URL", "https://iili.io/nkMQ2F2.jpg")
-PING_IMG_URL = getenv("PING_IMG_URL", "https://iili.io/nkMQ2F2.jpg")
-PLAYLIST_IMG_URL = "https://iili.io/nkMQ2F2.jpg"
-STATS_IMG_URL = "https://iili.io/nkMQ2F2.jpg"
-TELEGRAM_AUDIO_URL = "https://iili.io/nkMQ2F2.jpg"
-TELEGRAM_VIDEO_URL = "https://iili.io/nkMQ2F2.jpg"
-STREAM_IMG_URL = "https://iili.io/nkMQ2F2.jpg"
-SOUNCLOUD_IMG_URL = "https://iili.io/nkMQ2F2.jpg"
-YOUTUBE_IMG_URL = "https://iili.io/nkMQ2F2.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://iili.io/nkMQ2F2.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://iili.io/nkMQ2F2.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://iili.io/nkMQ2F2.jpg"
+START_IMG_URL = getenv("START_IMG_URL", "https://iili.io/nS6IydJ.jpg")
+PING_IMG_URL = getenv("PING_IMG_URL", "https://iili.io/nS6IydJ.jpg")
+PLAYLIST_IMG_URL = "https://iili.io/nS6IydJ.jpg"
+STATS_IMG_URL = "https://iili.io/nS6IydJ.jpg"
+TELEGRAM_AUDIO_URL = "https://iili.io/nS6IydJ.jpg"
+TELEGRAM_VIDEO_URL = "https://iili.io/nS6IydJ.jpg"
+STREAM_IMG_URL = "https://iili.io/nS6IydJ.jpg"
+SOUNCLOUD_IMG_URL = "https://iili.io/nS6IydJ.jpg"
+YOUTUBE_IMG_URL = "https://iili.io/nS6IydJ.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://iili.io/nS6IydJ.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://iili.io/nS6IydJ.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://iili.io/nS6IydJ.jpg"
 
 
 # Helper function
