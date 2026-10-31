@@ -22,7 +22,7 @@ def e(eid, fb):
     return f'<emoji id={eid}>{fb}</emoji>'
 
 start_txt = (
-    f"{e(_E_STAR,'🌟')} {e(_E_GLOW,'🤩')} <b> | 𝐌ᴀᴅᴀʀᴀ</b> {e(_E_GLOW,'🤩')} {e(_E_STAR,'🌟')}\n\n"
+    f"{e(_E_STAR,'🌟')} {e(_E_GLOW,'🤩')} <b> | 𝐕ɪɴɴᴜ</b> {e(_E_GLOW,'🤩')} {e(_E_STAR,'🌟')}\n\n"
     f"{e(_E_SPARK,'✨')} 𝐁ᴀᴅᴀ 𝐀ᴀʏᴀ 𝐁ᴏᴛ 𝐊ᴀ 𝐑ᴇᴘᴏ 𝐃ᴇᴋʜɴᴇ,\n"
     f"{e(_E_LOVE,'💗')} 𝐏ᴀʜʟᴇ 𝐀ᴘɴɪ 𝐋ɪɢᴇ 𝐊ᴀ 𝐑ᴇᴘᴏ 𝐒ᴜᴅʜᴀʀ 𝐉ᴀᴀᴋᴇ !\n\n"
     f"<pre>||{e(_E_RIGHT,'➡️')} 𝐔ᴘᴛɪᴍᴇ       :  𝟷𝐇:𝟹𝟺𝐌:𝟻𝟺𝐒\n"
